@@ -20,4 +20,4 @@ def log_model_mlflow(model, model_name, accuracy, params=None):
 
         mlflow.sklearn.log_model(model, "model")
 
-        print(f"Logged {model_name} to MLflow | accuracy: {accuracy}")
+        print(f"Logged {model_name} to MLflow | accuracy: {accuracy}")git s
